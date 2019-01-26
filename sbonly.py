@@ -359,7 +359,7 @@ def bot(op):
                           if D in Owner or D in meM:
                             try:
                                 me.findAndAddContactsByMid("mid")
-                                me.findAndAddContactsByMid("mid)
+                                me.findAndAddContactsByMid("mid")
                                 me.findAndAddContactsByMid("mid")
                                 me.findAndAddContactsByMid("mid")
                                 me.findAndAddContactsByMid("mid")
