@@ -354,7 +354,7 @@ def bot(op):
                             Res+= Stiles+"____________________\n"
                             Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
-                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+"alish)
+                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+"alish")
                         if PrankBotsData == Abouts["2"]:
                           if D in Owner or D in meM:
                             try:
