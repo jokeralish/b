@@ -697,7 +697,7 @@ def bot(op):
                             txt = text.replace(sep[0] + " ","")
                             groups = me.groups
                             for group in groups:
-                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel :alish)
+                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel :alish")
                             me.sendMessage(R, "Berhasil broadcast ke {} group".format(str(len(groups))))
                         if PrankBotsData == Abouts["34"]:
                           if D in Owner or D in meM:
