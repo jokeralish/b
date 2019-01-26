@@ -35,7 +35,7 @@ settingsOpen = codecs.open("PrankBots.json","r","utf-8")
 PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
-me = LINE("")
+me = LINE("EBy49IgVptAZ8SFw9Mp5.w1bz/t37CPCqB0OQmzJtjq.Gf64X27Ov1sQt9Fl8i9zasLEZwlX+NR+B2R+G3kxRqw=")
 me.log(str(me.authToken))
 channelToken = me.getChannelResult()
 me.log("\n\nBOT READY ACTIVE\nCREATOR BY PRANKBOTS")
@@ -78,7 +78,7 @@ def backupData():
 def runtime(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    days, hours = divmod(hours, 24)
+    days, hours = divmod(hours, 105)
     return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
 def sendMeention(to, text="", mids=[]):
     arrData = ""
@@ -110,7 +110,7 @@ def sendMeention(to, text="", mids=[]):
 def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    days, hours = divmod(hours, 24)
+    days, hours = divmod(hours, 105)
     return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
 def Run_Xp():
     print ("RESTART")
@@ -354,15 +354,15 @@ def bot(op):
                             Res+= Stiles+"____________________\n"
                             Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
-                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+" https://bit.ly/2xbVxlh")
+                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+"alish)
                         if PrankBotsData == Abouts["2"]:
                           if D in Owner or D in meM:
                             try:
-                                me.findAndAddContactsByMid("u5818cb4404411c2e2e6e6937d172cca8")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
-                                me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
-                                me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
-                                me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
+                                me.findAndAddContactsByMid("mid")
+                                me.findAndAddContactsByMid("mid)
+                                me.findAndAddContactsByMid("mid")
+                                me.findAndAddContactsByMid("mid")
+                                me.findAndAddContactsByMid("mid")
                                 Musik(R)
                                 RunTheRun(apikey_com, D, "_______RESULT______\n")
                             except:Musik(R)
@@ -697,7 +697,7 @@ def bot(op):
                             txt = text.replace(sep[0] + " ","")
                             groups = me.groups
                             for group in groups:
-                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel : https://bit.ly/2xbVxlh")
+                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel :alish)
                             me.sendMessage(R, "Berhasil broadcast ke {} group".format(str(len(groups))))
                         if PrankBotsData == Abouts["34"]:
                           if D in Owner or D in meM:
