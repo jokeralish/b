@@ -1,14 +1,4 @@
-# all of this data is copied from creator production PrankBots
-# don't forget to always support the prabkbots channel
-# SUBSCRABE HERE https://bit.ly/2xbVxlh
-# MY ID LINE :: http://line.me/ti/p/~Adiputra.95
-# Copy Righ :: http://github.com/Aprank
-# Country :: INDONESIA.
-# Area :: BOGOR.
-#___SCRIPT PYTHON 3____
-# GET INSTALED IN MODULE FROM VPS IT IS IN REPOSIYORIES
-#*Acil Creator
-
+# by ali ahmadi
 
 
 
@@ -46,7 +36,7 @@ oepoll = OEPoll(me)
 Owner = PrankBots["owner"]
 Stiles = "│○"
 respontags = {
-    "Auto_text": "\nYes I'am Here"
+    "Auto_text": "\nYes \n\n\n\nline.me/ti/p/~infoalish\n"
 }
 Sid={
     "Tar":{},
@@ -354,7 +344,7 @@ def bot(op):
                             Res+= Stiles+"____________________\n"
                             Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
-                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+"alish")
+                            me.sendMessage(R, str(Res)+Stiles+"\n"+Stiles+"alish")
                         if PrankBotsData == Abouts["2"]:
                           if D in Owner or D in meM:
                             try:
@@ -633,7 +623,7 @@ def bot(op):
                                 ret_ += "\n┣═Umur : {}".format(str(data["data"]["usia"]))
                                 ret_ += "\n┣═Tanggal ultah : {}".format(str(data["data"]["ultah"]))
                                 ret_ += "\n┣═Zodiak : {}".format(str(data["data"]["zodiak"]))
-                                ret_ += "\n╰━━═════[CREATOR PRANKBOTS]"
+                                ret_ += "\n╰━━═════[ᴀʟɪsʜ ᴊᴏᴋᴇʀ | ࡃݪے؁شʝ۝K∑ℜ؁ڃـꪆ؁ܭࢪܩ]"
                                 me.sendMessage(R, str(ret_))
                             except Exception as error:
                                 logError(error)
@@ -697,7 +687,7 @@ def bot(op):
                             txt = text.replace(sep[0] + " ","")
                             groups = me.groups
                             for group in groups:
-                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel :alish")
+                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nalish")
                             me.sendMessage(R, "Berhasil broadcast ke {} group".format(str(len(groups))))
                         if PrankBotsData == Abouts["34"]:
                           if D in Owner or D in meM:
@@ -795,7 +785,7 @@ def bot(op):
                                 ret_ += "\n┣═━━━Kode Qr/Link━━━═"
                                 ret_ += "\n┣═Group Ticket : {}".format(gTicket)
                                 ret_ += "\n┣═Group Qr : {}".format(gQr)
-                                ret_ += "\n╰━━━━══[ CREATOR PRANKBOT]"
+                                ret_ += "\n╰━━━━══[ ᴀʟɪsʜ ᴊᴏᴋᴇʀ | ࡃݪے؁شʝ۝K∑ℜ؁ڃـꪆ؁ܭࢪܩ]"
                                 me.sendImageWithURL(R, path)
                                 me.sendMessage(R, str(ret_))
                         if PrankBotsData == Abouts["41"]:
@@ -1051,7 +1041,7 @@ def bot(op):
             print ("NOTIFIED ADD CONTACT SELF")
             if PrankBots["Add"] == True:
                 me.findAndAddContactsByMid(op.param1)
-            sendMention(op.param1, op.param1, "Thanks For add Me ","")
+            sendMention(op.param1, op.param1, "Thanks For add Me \nline.me/ti/p/~infoalish","")
         if op.type == 15:
             Gr = op.param1
             Cj = op.param2
@@ -1072,7 +1062,7 @@ def bot(op):
             if PrankBots["Wc"] == True:
                 Gc = me.getGroup(Gr)
                 dia = me.getContact(Cj)
-                ms = "Welcome : {}".format(dia.displayName)+" In group : {}".format(Gc.name)
+                ms = "خوش اومدی : {}".format(dia.displayName)+" به گروه : {}".format(Gc.name)
                 me.sendMessage(Gr,str(ms))
                 me.sendContact(Gr,dia)
         if op.type == 65:

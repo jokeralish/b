@@ -1,20 +1,20 @@
 {
-    "key": false,
+    "key": true,
     "text": "pb:",
     "bot": true,
     "Conection": null,
-    "Add": false,
+    "Add": true,
     "Join": false,
-    "Wc": false,
+    "Wc": true,
     "Shared": false,
-    "Respon": false,
+    "Respon": true,
     "Read": false,
-    "Unsend": false,
+    "Unsend": true,
     "myProfile": {
         "coverId": "",
-        "displayName": "",
+        "displayName": "﷽ࡃݪے؁شʝ۝K∑ℜ؁ڃـꪆ؁ܭࢪܩ﷽",
         "pictureStatus": "",
-        "statusMessage": ""
+        "statusMessage": "Hello"
     },
     "owner": "",
     "userAgent": [
